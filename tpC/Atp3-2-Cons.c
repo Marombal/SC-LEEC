@@ -118,6 +118,6 @@ int main()
 
     pthread_join(tid_1, NULL);
     pthread_join(tid_2, NULL);
-
+//
     exit(0);
 }
