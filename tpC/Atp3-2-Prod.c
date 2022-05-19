@@ -42,7 +42,7 @@ int main()
     // - set permissions to 0644
 
     //abrir ficheiro
-    file_descriptor = open("numbers.txt", O_CREAT | O_RDWR | O_APPEND, 0644);
+    file_descriptor = open("numbers.txt", O_CREAT | O_WRONLY | O_APPEND, 0644);
 
     if (file_descriptor == -1)
     {
